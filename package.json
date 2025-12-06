@@ -1,0 +1,13 @@
+{
+  "name": "rubber-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "speaker": "^0.5.5",
+    "wavefile": "^11.0.0"
+  }
+}

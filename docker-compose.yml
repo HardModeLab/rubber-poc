@@ -1,0 +1,10 @@
+services:
+  xtts:
+    image: daswer123/xtts-api-server:latest
+    ports:
+      - "8020:8020"
+    environment:
+      COQUI_TOS_AGREED: 1
+    volumes:
+      - ./config/reference.wav:/data/reference.wav
+        
